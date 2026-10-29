@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'MagicWorld';
+    src: url('../CSS/Fonts/MAGIC-WORLD.otf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PaperKuto;
+    src: url('../CSS/Fonts/PaperKuto-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Londrina;
+    src: url('../CSS/Fonts/LondrinaSolid-Light.ttf')format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Londrina', sans-serif;
+    font-size: 30px;
+    background: linear-gradient(to right, #E6FBDA 50%, white 50%);
+}
+
+
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 140px;
+    padding: 0;
+    margin: 0;
+
+    background-color: #84D175;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.layout {
+    width: min(1400px, 94%);
+
+    margin: 55px auto;
+
+    display: grid;
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 35px;
+
+    align-items: start;
+}
+
+
+.content {
+    width: 300%;
+    height: auto;
+    transform: translate(400px, -190px);
+    padding: 30px;
+
+    background-color: #FFF8D2;
+    border: 5px solid #3E5BA3;
+    border-radius: 5px;
+    border-width: 10px;
+
+
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+
+.logo {
+    min-height: autopx;
+    margin-bottom: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo h2 {
+    font-family: MagicWorld, 'sans-serif';
+    font-size: 50px;
+    color: #0c2d45;
+}
+
+.Tekst {
+    color: #0c2d45;
+    font-size: 20px;
+}
+
+.Tekst p {
+    margin-bottom: 15px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.foto img {
+    width: auto;
+    height: 330px;
+    object-fit: cover;
+    border: 4px solid rgb(115, 83, 72);
+    border-radius: 5px;
+
+}
+
+.foto p {
+    font-size: 10px;
+    margin: 0;
+}

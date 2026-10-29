@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'MagicWorld';
+    src: url('../CSS/Fonts/MAGIC-WORLD.otf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PaperKuto;
+    src: url('../CSS/Fonts/PaperKuto-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Londrina;
+    src: url('../CSS/Fonts/LondrinaSolid-Light.ttf')format('truetype');
+}
+
+
+body {
+    background-color: #EcF5E2;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 140px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #657733;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: MagicWorld, 'sans-serif';
+    font-size: 50px;
+    color: #D4C04D
+}
+
+.Tijdlijnen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1px;
+}
+
+.Tijdlijnen img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.Tijdlijnen p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-family: Londrina, 'sans-serif';
+    color: #735348;
+    max-width: 500px;
+}
+
+
+.footer {
+    background-color: #657733;
+    color: #ECF5E2;
+    text-align: center;
+    padding: 30px 20px 15px;
+    margin-top: 60px;
+    font-family: PaperKuto, 'sans-serif';
+}
+
+.footer h2 {
+    color: #D4C04D;
+    margin: 0 0 10px;
+    font-size: 26px;
+}
+
+.footer p {
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.footer a {
+    color: #D4C04D;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer a:hover {
+    color: #735348;
+}
+
+.footer-bottom {
+    border-top: 1px solid #8B995F;
+    padding-top: 15px;
+    font-size: 13px;
+}
